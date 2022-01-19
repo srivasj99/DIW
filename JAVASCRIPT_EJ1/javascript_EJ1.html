@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let usuario = prompt("Dime tu nombre completo y tu año de nacimiento. Ej: (Pepe Perez Sanchez 1990)")
+        document.write(`<p>${usuario.toUpperCase()}</p>`)
+        let usuarioTrozos = usuario.split(" ")
+        let vocalesTotales = (str) =>{
+            const count = str.match(/[aeiou]/gi).length;
+
+            return count;
+        }
+        let tamanoTotalNombreApellidos = usuarioTrozos[0] + " " + usuarioTrozos[1] + " " + usuarioTrozos[2]
+        document.write(`<p>Nombre: ${usuarioTrozos[0]}</p>`)
+        document.write(`<p>Apellido 1: ${usuarioTrozos[1]}</p>`)
+        document.write(`<p>Apellido 2: ${usuarioTrozos[2]}</p>`)
+        document.write(`<p>Año Nacimiento: ${usuarioTrozos[3]}</p>`)
+        document.write(`<p>Nombre usuario: ${usuarioTrozos[0].substr(0,1).toLowerCase()}${usuarioTrozos[1].toLowerCase()}${usuarioTrozos[2].substr(-1).toLowerCase()}${usuarioTrozos[3].substr(-2).toLowerCase()}</p>`)
+        document.write(`<p>Vocales totales: ${vocalesTotales(usuario)} </p>`)
+        document.write(`<p>Tamaño total cadena: ${usuario.length} </p>`)
+        document.write(`<p>Tamaño total cadena con nombre y apellidos: ${tamanoTotalNombreApellidos.length} </p>`)
+    </script>
+</body>
+</html>
