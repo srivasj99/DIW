@@ -1,0 +1,16 @@
+Los colores en la primera página me parecen amigables, pero por ejemplo los enlaces están mal marcados.
+En la segunda página el aceptar las cookies salen arriba cuando en todas las páginas salen abajo.
+El formulario de ayuda, no se puede bajar de la flechita solo se baja al darle al boton de enviar y muy lento.
+El contador que sale si no escribes nada para salir está muy mal ubicado y casi ni se ve.
+El formulario no tiene placeholder, es un valor por defecto, y el color de la letra de los campos
+no se ven casi. El boton de terminos y condiciones te metes y no puedes salir. El checkbox aparece como
+marcado cuando no lo está.
+En el segundo formulario el botón de subir imagen está entre los parrafos, cuando subes la imagen siempre hay un gif de precarga.
+Pone que cojas 3 cosas que te interesan he cogido 3 y me sigue volviendo a pedir 3 además la notificacion
+te sale en verde, los checkbox de seleccionar y deseleccionar todo estan mezclados entre los demas checkbox.
+
+En el tercer formulario todos los inputs tienen por defecto un texto y no un plceholder, el input
+del age no es muy preciso, el de los paises las banderas están en blanco y negro, el año que naciste los meses están desordenados y los años empiezan desde el 1900, para escoger el genero da igual donde clickes de los dos botones que se cambian con cada click.
+
+En el cuarto formulario donde se escogen las imagenes los checkbox estan mal ubicados
+
